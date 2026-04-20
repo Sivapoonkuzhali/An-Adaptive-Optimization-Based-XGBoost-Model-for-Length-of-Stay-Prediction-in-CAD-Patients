@@ -1,2 +1,5 @@
 # An-Adaptive-Optimization-Based-XGBoost-Model-for-Length-of-Stay-Prediction-in-CAD-Patients
 An Adaptive Optimization-Based XGBoost Model for Length of Stay Prediction in CAD Patients-Hospital Length of Stay Prediction
+Hospital Length of Stay Prediction — IEEE Conference Paper (Co-Author)
+Python · XGBoost · Scikit-Learn · Optuna · SHAP · Variational Autoencoder (VAE) · t-SNE · SMOTE · MIMIC-III
+Developed an adaptive XGBoost framework (OAS-XGB) to predict hospital Length of Stay (LOS) for 12,487 Coronary Artery Disease patients using the MIMIC-III clinical dataset. Engineered a 4-stage ML pipeline: data preprocessing (missing value imputation, IQR-based outlier removal, SMOTE for class imbalance), latent feature extraction using Variational Autoencoders (VAE) and t-SNE, multi-objective hyperparameter optimisation via Optuna (TPE) with a custom Bayesian-Random Search hybrid (OAS), and SHAP-based model explainability. Achieved R² of 0.92, MAE of 1.73, and RMSE of 2.51 — outperforming baseline XGBoost by 16.4% MAE reduction. Conducted ablation study across 5 model configurations to validate component contributions.
